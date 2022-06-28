@@ -1,0 +1,13 @@
+name: getWeatherInfo
+on: 
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  getWeatherInfo:
+    runs-on: macOs-latest
+    steps:
+    - name: Print a Greeting
+      env: 
+        NAME: Mona
+      run: 
+        echo 'Hello, $NAME'
