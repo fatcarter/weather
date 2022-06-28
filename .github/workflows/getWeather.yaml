@@ -6,8 +6,8 @@ jobs:
   getWeatherInfo:
     runs-on: macOs-latest
     steps:
-    - name: Print a Greeting
-      env: 
-        NAME: Mona
-      run: 
-        echo 'Hello, $NAME'
+     - name: Print a Greeting
+       env: 
+         NAME: Mona
+       run: 
+         echo 'Hello, $NAME'
